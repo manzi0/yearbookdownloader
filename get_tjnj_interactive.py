@@ -16,18 +16,22 @@ import urllib.request
 import urllib.parse
 import re
 import ast
+import sys
+import json
+
+# Working items
+# - setup URl directory
+# - setup URL check
 
 
+# GLOBAL VARIABLES
 
-# SET BASIC PARAMETERS HERE
+# Translation filter for cleaning file names: change as necessary.
+clean_n = str.maketrans('','','abcdefghijklmnopqrstuvwxyz&.,:;<>?/=#":\n\t ')
 
-# Set base download directory: File structure of base_dir > province > year > file will be created.
-base_dir= '/media/dev/DATA/data/NSBData/ProvAnnual/'
-# Set default proxy server: Some yearbooks have IP blocks, may need to use a China proxy server.
-# Proxy is by default off. Activate by passing 'proxy=True' in scrape function. Need only set default here.
-proxy_server = 'socks4://183.6.7.103:4145'
-# Set translation filter for cleaning file names: change as necessary.
-clean_n = str.maketrans('','','abcdefghijklmnopqrstuvwxyz&.,:;<>?/=#":\n\t ') 
+# Directory of download URLs (read in from file)
+with open("urls.json") as json_file:
+    URLs = json.load(json_file)
 
 
 # FUNCTIONS
@@ -345,13 +349,14 @@ def rename(path, rename_dict):
             print("Rename failed for " + file_name)
 
 
-def scrape(prov, yr: int, url, proxy=False, disable_csv=False, disable_img=False, disable_htmlpage=False):
+def scrape(prov, yr: int, proxy=False, disable_csv=False, disable_img=False, disable_htmlpage=False):
     
     """Scrapes data based on specified province/year and url.
     Note: Change default directory here."""
     
-    # get path
+    # get path and URL
     path = get_path(prov, yr)
+    url = URLs[prov][y]
 
     # initiate browser and move to menu frame
     driver = init_sel(path, proxy)
@@ -396,7 +401,7 @@ def scrape(prov, yr: int, url, proxy=False, disable_csv=False, disable_img=False
     
     # rename files once all downloads complete if rename_dict available
     if rename_dict:
-        ver_rename = input("Rename files? (y/n)")
+        ver_rename = input("Rename files? (y/n) ")
         if ver_rename == 'y':
             rename(path, rename_dict)
 
@@ -404,11 +409,65 @@ def scrape(prov, yr: int, url, proxy=False, disable_csv=False, disable_img=False
 
 
 
-# RUN EXAMPLE
+# MAIN PROGRAM
 
-# for y in range(2011,2019):
-#     scrape('Fujian', y, f'https://tjj.fujian.gov.cn/tongjinianjian/dz{y}/index-cn.htm', proxy=False, \
-#            disable_img=True, disable_htmlpage=True)
+print("\nCHINA PROVINCIAL STATISTICAL YEARBOOK DOWNLOADER\n")
+print("See readme for usage instructions.\n")
 
-for y in range(2010,2011):
-    scrape('JS', y, f'https://tj.jiangsu.gov.cn/2011/index.html', proxy=False, disable_htmlpage=True)
+# Set parameters
+print("Please provide the requested parameters to initiate your download.")
+print("Note: Files will be saved with directory structure 'download_directory > province > year > file'")
+
+base_dir = input("\nPath to download directory (leave empty for current working directory): ")
+if not base_dir:
+    base_dir = os.getcwd()
+while not os.path.exists(base_dir):
+    print("Download directory does not exist. Please re-enter: ")
+    base_dir = input("Path to download directory (leave empty for current working directory): ")
+    if not base_dir:
+        base_dir = os.getcwd()
+
+prov = input("\nProvince name (full pinyin, no spaces): ").strip().lower()
+while prov not in URLs:
+    prov = input("Province name not recognized. Please re-enter or enter 'ls' for list of provinces: ").strip().lower()
+    if prov == "ls":
+        print(sorted(URLs.keys()))
+
+print("\n" + URLs[prov]["NOTE"])
+start = end = 0
+while not start:
+    years = input("Enter the year or range of years you would like to download ('yyyy' or 'yyyy-yyyy'): ")
+    if years.isdigit():
+        start = end = int(years)
+    else:
+        try:
+            start, end = (int(y) for y in years.split('-'))
+        except:
+            print("Unable to parse download year. Please re-enter.")
+    
+    if start and start < 1998 or end > 2025 or start > end:
+        print("Year range invalid. Please enter year or year range between 1999 and current year.")
+        start = end = 0
+
+proxy_server = input("\nEnter proxy server (optional): ").strip()
+
+print()
+toDownload = [str(y) for y in range(start, end+1)]
+i = 0
+while i < len(toDownload):
+    y = toDownload[i]
+    if y in URLs[prov]:
+        i += 1
+    else:
+        print(f"Yearbook URL for {prov} {y} not found.")
+        url = input("Please input yearbook URL or 's' to skip year: ").strip()
+        if url == "s":
+            toDownload.pop(i)
+        else:
+            URLs[prov][y] = url
+            i += 1
+
+# Download
+print("Starting download...")
+for y in toDownload:
+    scrape(prov, int(y), proxy=bool(proxy_server), disable_htmlpage=True)

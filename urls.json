@@ -1,0 +1,303 @@
+{
+    "beijing": {
+        "NOTE": "Currently available years: 2010-2025",
+        "2010": "https://nj.tjj.beijing.gov.cn/nj/main/2010_ch/e/index.htm",
+        "2011": "https://nj.tjj.beijing.gov.cn/nj/main/2011_ch/e/index.htm",
+        "2012": "https://nj.tjj.beijing.gov.cn/nj/main/2012_ch/e/index.htm",
+        "2013": "https://nj.tjj.beijing.gov.cn/nj/main/2013_ch/e/index.htm",
+        "2014": "https://nj.tjj.beijing.gov.cn/nj/main/2014_tjnj/e/index.htm",
+        "2015": "https://nj.tjj.beijing.gov.cn/nj/main/2015-tjnj/zk/e/indexce.htm",
+        "2016": "https://nj.tjj.beijing.gov.cn/nj/main/2016-tjnj/zk/e/indexce.htm",
+        "2017": "https://nj.tjj.beijing.gov.cn/nj/main/2017-tjnj/zk/e/indexce.htm",
+        "2018": "https://nj.tjj.beijing.gov.cn/nj/main/2018-tjnj/zk/e/indexce.htm",
+        "2019": "https://nj.tjj.beijing.gov.cn/nj/main/2019-tjnj/zk/e/indexce.htm",
+        "2020": "https://nj.tjj.beijing.gov.cn/nj/main/2020-tjnj/zk/e/indexce.htm",
+        "2021": "https://nj.tjj.beijing.gov.cn/nj/main/2021-tjnj/zk/e/indexce.htm",
+        "2022": "https://nj.tjj.beijing.gov.cn/nj/main/2022-tjnj/zk/e/indexce.htm",
+        "2023": "https://nj.tjj.beijing.gov.cn/nj/main/2023-tjnj/zk/indexce.htm",
+        "2024": "https://nj.tjj.beijing.gov.cn/nj/main/2024-tjnj/zk/e/indexce.htm",
+        "2025": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/e/indexce.htm"
+    },
+    "tianjin": {
+        "NOTE": "Currently available years: 2010-2025",
+        "2010": "https://nj.tjj.beijing.gov.cn/nj/main/2010_ch/e/index.htm",
+        "2011": "https://stats.tj.gov.cn/nianjian/2011nj/indexce.htm",
+        "2012": "https://stats.tj.gov.cn/nianjian/2012nj/indexce.htm",
+        "2013": "https://stats.tj.gov.cn/nianjian/2013nj/indexce.htm",
+        "2014": "https://stats.tj.gov.cn/nianjian/2014nj/zk/indexce.htm",
+        "2015": "https://stats.tj.gov.cn/nianjian/2015nj/zk/indexce.htm",
+        "2016": "https://stats.tj.gov.cn/nianjian/2016nj/zk/indexce.htm",
+        "2017": "https://stats.tj.gov.cn/nianjian/2017nj/zk/indexce.htm",
+        "2018": "https://stats.tj.gov.cn/nianjian/2018nj/zk/indexce.htm",
+        "2019": "https://stats.tj.gov.cn/nianjian/2019nj/zk/indexce.htm",
+        "2020": "https://stats.tj.gov.cn/nianjian/2020nj/zk/indexce.htm",
+        "2021": "https://stats.tj.gov.cn/nianjian/2021nj/zk/indexce.htm",
+        "2022": "https://stats.tj.gov.cn/nianjian/2022nj/zk/indexce.htm",
+        "2023": "https://stats.tj.gov.cn/nianjian/2023nj/zk/indexce.htm",
+        "2024": "https://stats.tj.gov.cn/nianjian/2024nj/zk/indexce.htm",
+        "2025": "https://stats.tj.gov.cn/nianjian/2025nj/zk/indexce.htm"
+    },
+    "hebei": {
+        "NOTE": "Proxy required"
+    },
+    "shanxi": {
+        "NOTE": "Proxy required"
+    },
+    "neimenggu": {
+        "NOTE": "Currently available years: 2011-2024",
+        "2011": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/0ba4612b76944ad0b353b68d8e450f75/indexce.htm",
+        "2012": "https://tj.nmg.gov.cn/files_pub/files_nmg_zl/html/nmgtjnj/2012/indexce.htm",
+        "2013": "https://tj.nmg.gov.cn/files_pub/files_nmg_zl/html/nmgtjnj/2013/indexce.htm",
+        "2014": "https://tj.nmg.gov.cn/files_pub/files_nmg_zl/html/nmgtjnj/2014/indexce.htm",
+        "2015": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/124a9c95340c4e84a1c01ab605a6c6ec/indexce.htm",
+        "2016": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/cfd284665a60488a97e09dd630f57fe0/indexce.htm",
+        "2017": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/ebc5b543efbe4fc89a546a0431cc408e/indexce.htm",
+        "2018": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/66d2e078c7714ed0a5a378ec901b5c56/indexce.htm",
+        "2019": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/8d7e00ef68da415eaad8f44f6c64beb4/indexce.htm",
+        "2020": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/b85658190a3644f8b192e45f5221f2fa/indexce.htm",
+        "2021": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/83e5521da4e94d50ab45483b58e5fa7e/indexce.htm",
+        "2022": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/bc68854b528043ee865bc3a622b13a17/indexce.htm",
+        "2023": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/273fc22e8b73483c8ac343ea8e0026d2/indexce.htm",
+        "2024": "https://tj.nmg.gov.cn/files_pub/content/PAGEPACK/4d4f514df3d745fdb0db8f8e07818bd6/indexce.htm"
+    },
+    "liaoning": {
+        "NOTE": "Currently available years: 2012-2024",
+        "2012": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2012/indexce.htm",
+        "2013": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2013/indexce.htm",
+        "2014": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2014/indexce.htm",
+        "2015": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2015/indexce.htm",
+        "2016": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2016/indexce.htm",
+        "2017": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2017/indexce.htm",
+        "2018": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2018/indexce.htm",
+        "2019": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2019/indexce.htm",
+        "2020": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2020/2020/zk/indexce.htm",
+        "2021": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2021/zk/indexce.htm",
+        "2022": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2022/zk/indexce.htm",
+        "2023": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2023/zk/indexce.htm",
+        "2024": "https://tjj.ln.gov.cn/tjj/tjxx/xxcx/tjnj/otherpages/2024/zk/indexce.htm"
+    },
+    "jilin": {
+        "NOTE": "Currently available years: 2005-2024",
+        "2005": "https://tjj.jl.gov.cn/tjsj/tjnj/2005/ml/indexc.htm",
+        "2006": "https://tjj.jl.gov.cn/tjsj/tjnj/2006/ml/indexc.htm",
+        "2007": "https://tjj.jl.gov.cn/tjsj/tjnj/2007/ml/indexc.htm",
+        "2008": "https://tjj.jl.gov.cn/tjsj/tjnj/2008/ml/indexc.htm",
+        "2009": "https://tjj.jl.gov.cn/tjsj/tjnj/2009/ml/indexc.htm",
+        "2010": "https://tjj.jl.gov.cn/tjsj/tjnj/2010/ml/indexc.htm",
+        "2011": "https://tjj.jl.gov.cn/tjsj/tjnj/2011/ml/indexc.htm",
+        "2012": "https://tjj.jl.gov.cn/tjsj/tjnj/2012/ml/indexc.htm",
+        "2013": "https://tjj.jl.gov.cn/tjsj/tjnj/2013/ml/indexc.htm",
+        "2014": "https://tjj.jl.gov.cn/tjsj/tjnj/2014/ml/indexc.htm",
+        "2015": "https://tjj.jl.gov.cn/tjsj/tjnj/2015/ml/indexc.htm",
+        "2016": "https://tjj.jl.gov.cn/tjsj/tjnj/2016/ml/indexc.htm",
+        "2017": "https://tjj.jl.gov.cn/tjsj/tjnj/2017/ml/indexc.htm",
+        "2018": "https://tjj.jl.gov.cn/tjsj/tjnj/2018/ml/indexc.htm",
+        "2019": "https://tjj.jl.gov.cn/tjsj/tjnj/2019/ml/indexc.htm",
+        "2020": "https://tjj.jl.gov.cn/tjsj/tjnj/2020/ml/indexc.htm",
+        "2021": "https://tjj.jl.gov.cn/tjsj/tjnj/2021/ml/indexc.htm",
+        "2022": "https://tjj.jl.gov.cn/tjsj/tjnj/2022/ml/indexc.htm",
+        "2023": "https://tjj.jl.gov.cn/tjsj/tjnj/2023/ml/indexc.htm",
+        "2024": "https://tjj.jl.gov.cn/tjsj/tjnj/2024/ml/indexc.htm"
+    },
+    "heilongjiang": {
+        "NOTE": "Currently available years: 2020-2024. Earlier years available as zip from website.",
+        "2020": "https://tjj.hlj.gov.cn/tjjnianjian/2020/zk/indexce.htm",
+        "2021": "https://tjj.hlj.gov.cn/tjjnianjian/2021/zk/indexce.htm",
+        "2022": "https://tjj.hlj.gov.cn/tjjnianjian/2022/zk/indexce.htm",
+        "2023": "https://tjj.hlj.gov.cn/tjjnianjian/2023/zk/indexce.htm",
+        "2024": "https://tjj.hlj.gov.cn/tjjnianjian/2024/zk/indexce.htm"
+    },
+    "shanghai": {
+        "NOTE": "Yearbooks available in zip format on website. No downloads supported."
+    },
+    "jiangsu": {
+        "NOTE": "Currently available years: 2011-2024",
+        "2011": "https://tj.jiangsu.gov.cn/2011/index.html",
+        "2012": "https://tj.jiangsu.gov.cn/2012/index.htm",
+        "2013": "https://tj.jiangsu.gov.cn/2013/index.html",
+        "2014": "https://tj.jiangsu.gov.cn/2014/index.html",
+        "2015": "https://tj.jiangsu.gov.cn/2015/index.html",
+        "2016": "https://tj.jiangsu.gov.cn/2016/index.html",
+        "2017": "https://tj.jiangsu.gov.cn/2017/index.htm",
+        "2018": "https://tj.jiangsu.gov.cn/2018/index.htm",
+        "2019": "https://tj.jiangsu.gov.cn/2019/index.htm",
+        "2020": "https://tj.jiangsu.gov.cn/2020/index.htm",
+        "2021": "https://tj.jiangsu.gov.cn/2021/index.htm",
+        "2022": "https://tj.jiangsu.gov.cn/2022/index.htm",
+        "2023": "https://tj.jiangsu.gov.cn/2023/index.htm",
+        "2024": "https://tj.jiangsu.gov.cn/2024/index.htm"
+    },
+    "zhejiang": {
+        "NOTE": "Proxy required"
+    },
+    "anhui": {
+        "NOTE": "Proxy required"
+    },
+    "fujian": {
+        "NOTE": "Currently available years: 2000-2024",
+        "2000": "https://tjj.fujian.gov.cn/tongjinianjian/dz00/index1.htm",
+        "2001": "https://tjj.fujian.gov.cn/tongjinianjian/dz01/index1.htm",
+        "2002": "https://tjj.fujian.gov.cn/tongjinianjian/dz02/index1.htm",
+        "2003": "https://tjj.fujian.gov.cn/tongjinianjian/dz03/index1.htm",
+        "2004": "https://tjj.fujian.gov.cn/tongjinianjian/dz04/index1.htm",
+        "2005": "https://tjj.fujian.gov.cn/tongjinianjian/dz05/index1.htm",
+        "2006": "https://tjj.fujian.gov.cn/tongjinianjian/dz06/index1.htm",
+        "2007": "https://tjj.fujian.gov.cn/tongjinianjian/dz07/index1.htm",
+        "2008": "https://tjj.fujian.gov.cn/tongjinianjian/dz08/index1.htm",
+        "2009": "https://tjj.fujian.gov.cn/tongjinianjian/dz09/index-cn.htm",
+        "2010": "https://tjj.fujian.gov.cn/tongjinianjian/dz10/index-cn.htm",
+        "2011": "https://tjj.fujian.gov.cn/tongjinianjian/dz2011/index-cn.htm",
+        "2012": "https://tjj.fujian.gov.cn/tongjinianjian/dz2012/index-cn.htm",
+        "2013": "https://tjj.fujian.gov.cn/tongjinianjian/dz2013/index-cn.htm",
+        "2014": "https://tjj.fujian.gov.cn/tongjinianjian/dz2014/index-cn.htm",
+        "2015": "https://tjj.fujian.gov.cn/tongjinianjian/dz2015/index-cn.htm",
+        "2016": "https://tjj.fujian.gov.cn/tongjinianjian/dz2016/index-cn.htm",
+        "2017": "https://tjj.fujian.gov.cn/tongjinianjian/dz2017/index-cn.htm",
+        "2018": "https://tjj.fujian.gov.cn/tongjinianjian/dz2018/index-cn.htm",
+        "2019": "https://tjj.fujian.gov.cn/tongjinianjian/dz2019/index.htm",
+        "2020": "https://tjj.fujian.gov.cn/tongjinianjian/dz2020/index.htm",
+        "2021": "https://tjj.fujian.gov.cn/tongjinianjian/dz2021/index.htm",
+        "2022": "https://tjj.fujian.gov.cn/tongjinianjian/dz2022/index.htm",
+        "2023": "https://tjj.fujian.gov.cn/tongjinianjian/dz2023/indexce.htm",
+        "2024": "https://tjj.fujian.gov.cn/tongjinianjian/dz2024/indexce.htm"
+    },
+    "jiangxi": {
+        "NOTE": "Proxy required"
+    },
+    "shandong": {
+        "NOTE": "Currently available years: 2007-2025",
+        "2007": "http://tjj.shandong.gov.cn/tjnj/nj2007/indexch.htm",
+        "2008": "http://tjj.shandong.gov.cn/tjnj/nj2008/indexch.htm",
+        "2009": "http://tjj.shandong.gov.cn/tjnj/nj2009/indexch.htm",
+        "2010": "http://tjj.shandong.gov.cn/tjnj/nj2010/indexch.htm",
+        "2011": "http://tjj.shandong.gov.cn/tjnj/nj2011/indexch.htm",
+        "2012": "http://tjj.shandong.gov.cn/tjnj/nj2012/indexch.htm",
+        "2013": "http://tjj.shandong.gov.cn/tjnj/nj2013/indexch.htm",
+        "2014": "http://tjj.shandong.gov.cn/tjnj/nj2014/indexch.htm",
+        "2015": "http://tjj.shandong.gov.cn/tjnj/nj2015/indexce.htm",
+        "2016": "http://tjj.shandong.gov.cn/tjnj/nj2016/indexch.htm",
+        "2017": "http://tjj.shandong.gov.cn/tjnj/nj2017/zk/indexce.htm",
+        "2018": "http://tjj.shandong.gov.cn/tjnj/nj2018/zk/indexce.htm",
+        "2019": "http://tjj.shandong.gov.cn/tjnj/nj2019/zk/indexce.htm",
+        "2020": "http://tjj.shandong.gov.cn/tjnj/nj2020/zk/indexce.htm",
+        "2021": "http://tjj.shandong.gov.cn/tjnj/nj2021/zk/indexce.htm",
+        "2022": "http://tjj.shandong.gov.cn/tjnj/nj2022/zk/indexce.htm",
+        "2023": "http://tjj.shandong.gov.cn/tjnj/nj2023/zk/indexce.htm",
+        "2024": "http://tjj.shandong.gov.cn/tjnj/nj2024/zk/indexce.htm",
+        "2025": "http://tjj.shandong.gov.cn/tjnj/nj2025/zk/indexce.htm"
+    },
+    "henan": {
+        "NOTE": "Proxy required"
+    },
+    "hubei": {
+        "NOTE": "Yearbooks available in zip format on website. No downloads supported."
+    },
+    "hunan": {
+        "NOTE": "Currently available years: 2006-2009, 2011-2024. Earlier years available as pdf on website. 2010 available as zip.",
+        "2006": "http://222.240.193.190/06tjnj/img/%E7%9B%AE%E5%BD%95.htm",
+        "2007": "http://222.240.193.190/07tjnj/img/index.htm",
+        "2008": "http://222.240.193.190/08tjnj/index.htm",
+        "2009": "http://222.240.193.190/09tjnj/index.htm",
+        "2011": "http://222.240.193.190/11tjnj/indexce.htm",
+        "2012": "http://222.240.193.190/12tjnj/indexce.htm",
+        "2013": "http://222.240.193.190/13tjnj/indexce.htm",
+        "2014": "http://222.240.193.190/14tjnj/indexce.htm",
+        "2015": "http://222.240.193.190/15tjnj/indexce.htm",
+        "2016": "http://222.240.193.190/16tjnj/indexce.htm",
+        "2017": "http://222.240.193.190/17tjnj/indexce.htm",
+        "2018": "http://222.240.193.190/18tjnj/indexce.htm",
+        "2019": "http://222.240.193.190/19tjnj/indexce.htm",
+        "2020": "http://222.240.193.190/2020tjnj/indexce.htm",
+        "2021": "http://222.240.193.190/2021tjnj/indexce.htm",
+        "2022": "http://222.240.193.190/2022tjnj/indexce.htm",
+        "2023": "http://222.240.193.190/2023tjnj/indexce.htm",
+        "2024": "http://222.240.193.190/2024tjnj/indexce.htm"
+    },
+    "guangdong": {
+        "NOTE": "Yearbooks available in zip format on website. No downloads supported."
+    },
+    "guangxi": {
+        "NOTE": "Proxy required"
+    },
+    "hainan": {
+        "NOTE": "Proxy required"
+    },
+    "chongqing": {
+        "NOTE": "Yearbooks available in pdf format on website. No downloads supported."
+    },
+    "sichuan": {
+        "NOTE": "Yearbooks available in zip format on website. No downloads supported."
+    },
+    "guizhou": {
+        "NOTE": "Proxy required"
+    },
+    "yunnan": {
+        "NOTE": "Yearbooks available in zip format on website. No downloads supported."
+    },
+    "xizang": {
+        "NOTE": "None available"
+    },
+    "shaanxi": {
+        "NOTE": "Currently available years: 2013-2025. Earlier years available as pdf on website.",
+        "2013": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2013/zk/indexce.htm",
+        "2014": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2014/zk/indexce.htm",
+        "2015": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2015/zk/indexce.htm",
+        "2016": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2016/zk/indexce.htm",
+        "2017": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2017/zk/indexce.htm",
+        "2018": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2018/zk/indexce.htm",
+        "2019": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2019/zk/indexce.htm",
+        "2020": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2020/zk/indexce.htm",
+        "2021": "https://tjj.shaanxi.gov.cn/upload/2022/zl/2021/zk/indexce.htm",
+        "2022": "https://tjj.shaanxi.gov.cn/upload/2022/zk/indexce.htm",
+        "2023": "https://tjj.shaanxi.gov.cn/upload/2023/zk/indexce.htm",
+        "2024": "https://tjj.shaanxi.gov.cn/upload/2024/zk/indexce.htm",
+        "2025": "https://tjj.shaanxi.gov.cn/upload/2025/zk/indexce.htm"
+    },
+    "gansu": {
+        "NOTE": "Yearbooks available in pdf format on website. No downloads supported."
+    },
+    "qinghai": {
+        "NOTE": "Currently available years: 2010-2025",
+        "2010": "http://tjj.qinghai.gov.cn/nj/2010/indexce.htm",
+        "2011": "http://tjj.qinghai.gov.cn/nj/2011/indexce.htm",
+        "2012": "http://tjj.qinghai.gov.cn/nj/2012/indexce.htm",
+        "2013": "http://tjj.qinghai.gov.cn/nj/2013/indexce.htm",
+        "2014": "http://tjj.qinghai.gov.cn/nj/2014/indexce.htm",
+        "2015": "http://tjj.qinghai.gov.cn/nj/2015/indexce.htm",
+        "2016": "http://tjj.qinghai.gov.cn/nj/2016/indexce.htm",
+        "2017": "http://tjj.qinghai.gov.cn/nj/2017/indexce.htm",
+        "2018": "http://tjj.qinghai.gov.cn/nj/2018/indexce.htm",
+        "2019": "http://tjj.qinghai.gov.cn/nj/2019/indexce.htm",
+        "2020": "http://tjj.qinghai.gov.cn/nj/2020/indexce.htm",
+        "2021": "http://tjj.qinghai.gov.cn/nj/2021/indexce.htm",
+        "2022": "http://tjj.qinghai.gov.cn/nj/2022/indexce.htm",
+        "2023": "http://tjj.qinghai.gov.cn/nj/2023/indexce.htm",
+        "2024": "http://tjj.qinghai.gov.cn/nj/2024/indexce.htm",
+        "2025": "http://tjj.qinghai.gov.cn/nj/2025/indexce.htm"
+    },
+    "ningxia": {
+        "NOTE": "Currently available years: 2005-2023",
+        "2005": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2005/indexce.html",
+        "2006": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2006/indexch.html",
+        "2007": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2007/indexce.html",
+        "2008": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2008/indexce.htm",
+        "2009": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2009/indexce.htm",
+        "2010": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2010/indexce.htm",
+        "2011": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2011/indexce.htm",
+        "2012": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2012/indexce.htm",
+        "2013": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2013/indexce.html",
+        "2014": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2014/indexce.htm",
+        "2015": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2015/indexce.htm",
+        "2016": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2016/indexfiles/indexce.htm",
+        "2017": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2017/indexfiles/indexce.htm",
+        "2018": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2018/indexfiles/indexce.htm",
+        "2019": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2019/indexfiles/indexce.htm",
+        "2020": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2020/indexfiles/indexce.htm",
+        "2021": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2021/indexfiles/indexce.htm",
+        "2022": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2022/indexfiles/indexce.htm",
+        "2023": "https://nxdata.com.cn/files_nx_pub/html/tjnj/2023/indexfiles/indexce.htm"
+    },
+    "xinjiang": {
+        "NOTE": "None available"
+    }
+}
