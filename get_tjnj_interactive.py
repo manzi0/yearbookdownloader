@@ -19,10 +19,6 @@ import ast
 import sys
 import json
 
-# Working items
-# - setup URl directory
-# - setup URL check
-
 
 # GLOBAL VARIABLES
 
@@ -40,7 +36,7 @@ def init_sel(path, proxy=False):
     '''Initializes selenium. Sets default browser options.'''
     option = webdriver.ChromeOptions()
     option.add_argument('--disable-blink-features=AutomationControlled')
-    # option.add_argument("--headless")
+    option.add_argument("--headless")
     prefs = {"download.default_directory": path}
     option.add_experimental_option("prefs", prefs)
     if proxy:
